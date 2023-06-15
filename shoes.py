@@ -15,7 +15,7 @@ class Shoes:
 		self.budget_check(budget)
 		
 		if budget >= self.price:
-			print(f"You cann cop some {self.name}")
+			print(f"You can cop some {self.name}")
 			
 			if budget == self.price:
 				print("You have exactly enough money for these shoes.")
